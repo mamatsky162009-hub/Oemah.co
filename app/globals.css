@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --espresso: #29251f;
+  --cream: #f3ebdd;
+  --caramel: #b58b60;
+  --olive: #777b5b;
+  --white: #fffaf1;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--caramel);
+  color: white;
+}
